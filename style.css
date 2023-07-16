@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0e0e8b;
+}
+
+form {
+    display: flex;
+    font-family: 'Oxygen', sans-serif;
+    justify-content: center;
+    transform: translate(27rem);
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    border: 1px solid;
+    width: 35vw;
+    margin-top: 3rem;
+    padding: 5rem;
+    background-color: white;
+}
+
+form h1 {
+    position: relative;
+    bottom: 2rem;
+}
+
+form input {
+    padding: 3px 3px;
+    border-radius: 5px;
+}
+
+form button {
+    font-family: 'Ysabeau Infant', sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
